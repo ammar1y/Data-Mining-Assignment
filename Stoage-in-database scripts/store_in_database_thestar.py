@@ -13,7 +13,7 @@ os.chdir(script_dir)
 # Connect to the database
 connection = pymysql.connect(host='localhost',
                              user='root',
-                             password='Asdlkj987!23',
+                             password='PASS',
                              db='data_mining_assignment',
                              charset='utf8',
                              cursorclass=pymysql.cursors.DictCursor)
