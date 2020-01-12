@@ -25,7 +25,7 @@ for i in range(len(company_fullnames)):
 # Connect to the database
 connection = pymysql.connect(host='localhost',
                              user='root',
-                             password='.',
+                             password='PASS',
                              db='data_mining_assignment',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
